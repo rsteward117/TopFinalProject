@@ -1,13 +1,9 @@
 import react from 'react'
 import styled from 'styled-components'
-import {  BrowserRouter as Router,
-    Switch,
-    Route,
-    Link } from 'react-router-dom'
-import Home from '../pages/home'
+import { Link } from 'react-router-dom'
+//useable react icon
 import {FaBars} from 'react-icons/fa'
-import Sidebar from './sideBar'
-import Story from '../pages/story'
+
 
 const Nav = styled.nav`
     background: black;
@@ -74,7 +70,7 @@ const NavMenu = styled.ul`
 const NavItem = styled.li`
     height: 80px;
 `
-
+//react link being used it an styled componet
 const NavLinks = styled(Link)` 
     color: white;
     display: flex;
@@ -95,7 +91,6 @@ const NavLinks = styled(Link)`
 function Navbar({ toggle }){
 
     return(
-            <Router>
                 <Nav>
                     <NavContainer>
                         <NavLogo to='/'>
@@ -109,7 +104,7 @@ function Navbar({ toggle }){
                                 <NavLinks to="/story">Story</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/classes">Servant Class</NavLinks>
+                                <NavLinks to="/servantclasses">Servant Class</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/rollsimulator">Roll Simulator</NavLinks>
@@ -120,7 +115,6 @@ function Navbar({ toggle }){
                         </NavMenu>
                     </NavContainer>
                 </Nav>
-            </Router>
     )
 }
 

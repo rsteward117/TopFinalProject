@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {FaTimes} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
+//side or slide bar for moble users
 const Sidebarcontainer = styled.aside`
     position: fixed;
     z-index: 999;
@@ -47,7 +48,7 @@ const Icon = styled.div`
         grid-template-rows: repeat(6, 60px);
     }
  `
-
+//react link used in styled componets
  const SidebarLink = styled(Link)`
     display:flex;
     align-items: center;
@@ -79,7 +80,7 @@ function Sidebar({isOpen, toggle}){
                     <SidebarLink to="/story">
                         Story
                     </SidebarLink>
-                    <SidebarLink to="/classes">
+                    <SidebarLink to="/servantclasses">
                         Servant Class
                     </SidebarLink>
                     <SidebarLink to="/rollsimulator">
