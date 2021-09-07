@@ -16,7 +16,6 @@ function Masterchat (){
         <>
         <Navbar toggle={toggle}/>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
-        <h1>This is master chat!</h1>
         </>
     )
 

@@ -80,8 +80,9 @@ const NavLinks = styled(Link)`
     height: 100%;
     cursor: pointer;
 
-    &.active{
-        border-bottom:3px solid lightblue;
+    &:hover{
+        color: cyan;
+        transition: ease-in-out 0.2s;
     }
 `
 
