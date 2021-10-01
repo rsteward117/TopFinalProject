@@ -6,6 +6,7 @@ html {
 body {
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  background-color: #FAF9F6;
 }
 body::-webkit-scrollbar {
   width: 5px;

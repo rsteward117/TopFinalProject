@@ -17,7 +17,6 @@ function App() {
             <Route exact path="/servantclasses" component={Servantclasses} />
             <Route exact path="/rollsimulator" component={Rollsimulator} />
             <Route exact path="/masterchat" component={Masterchat} />
-
           </Switch>
       </Router>
     </>
