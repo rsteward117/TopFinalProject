@@ -22,3 +22,18 @@ body::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+/* 
+lines 30-38 belongs to all the individual servant class images they are just give each image slide an animation when
+you click the buttons
+
+*/
+.slide{
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

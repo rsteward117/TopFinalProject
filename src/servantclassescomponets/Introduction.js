@@ -147,7 +147,6 @@ function Introduction(){
                     </Commendsealtext>
                 </Commendsealexplanationcontainer>
             </Maincontainer>
-
         </>
     )
 }

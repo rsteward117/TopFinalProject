@@ -22,7 +22,6 @@ const Dropdownbtn = styled.div`
   padding: 14px 16px;
   text-decoration: none;
   cursor: pointer;
-
     &:hover{
         color: cyan;
         background: grey;
@@ -74,9 +73,9 @@ function Servantclassesnavbar(){
                     Knight Classes<FaCaretDown />
                 </Dropdownbtn>
                     <Dropdowncontent>
-                        <Dropdownnavlinks>Saber</Dropdownnavlinks>
-                        <Dropdownnavlinks>Archer</Dropdownnavlinks>
-                        <Dropdownnavlinks>Lancer</Dropdownnavlinks>
+                        <Dropdownnavlinks to="/saberclass">Saber</Dropdownnavlinks>
+                        <Dropdownnavlinks to="/archerclass">Archer</Dropdownnavlinks>
+                        <Dropdownnavlinks to="/lancerclass">Lancer</Dropdownnavlinks>
                     </Dropdowncontent>
                 </Dropdownli>
                 <Dropdownli>
@@ -96,7 +95,7 @@ function Servantclassesnavbar(){
                 </Dropdownbtn>
                     <Dropdowncontent>
                         <Dropdownnavlinks>Ruler</Dropdownnavlinks>
-                        <Dropdownnavlinks>Avenger</Dropdownnavlinks>
+                        <Dropdownnavlinks to="/avengerclass">Avenger</Dropdownnavlinks>
                         <Dropdownnavlinks>Alter Ego</Dropdownnavlinks>
                         <Dropdownnavlinks>Moon Cancer</Dropdownnavlinks>
                         <Dropdownnavlinks>Foreigner</Dropdownnavlinks>
