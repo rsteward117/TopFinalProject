@@ -73,7 +73,7 @@ function Servantclassesnavbar(){
                     Knight Classes<FaCaretDown />
                 </Dropdownbtn>
                     <Dropdowncontent>
-                        <Dropdownnavlinks to="/saberclass">Saber</Dropdownnavlinks>
+                        <Dropdownnavlinks to="/servantclasses/saberclass">Saber</Dropdownnavlinks>
                         <Dropdownnavlinks to="/archerclass">Archer</Dropdownnavlinks>
                         <Dropdownnavlinks to="/lancerclass">Lancer</Dropdownnavlinks>
                     </Dropdowncontent>

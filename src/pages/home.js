@@ -95,8 +95,8 @@ function Home(){
                         </h3>
                     </NavCards>
                     <NavCards>
-                        <NavLink to='/rollsimulator'>
-                        Roll Simulator
+                        <NavLink to='/gamemachanics'>
+                        Game Machanics
                         </NavLink>
                         <h3>
                         Test out your luck to see how luck you are in the game's gacha mechanics!

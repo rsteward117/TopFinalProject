@@ -83,8 +83,8 @@ function Sidebar({isOpen, toggle}){
                     <SidebarLink to="/servantclasses">
                         Servant Class
                     </SidebarLink>
-                    <SidebarLink to="/rollsimulator">
-                        Roll Simulator
+                    <SidebarLink to="/gamemachanics">
+                        Game Machanics
                     </SidebarLink>
                     <SidebarLink to="/masterchat">
                         Masters Chat

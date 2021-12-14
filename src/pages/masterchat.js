@@ -5,8 +5,9 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth'
 import 'firebase/compat/analytics';
+//I used a css module instead of styled componets for this page beacuse I didn't want to complicate this part of the page since I'm still learning how to use firebase/firestore. 
 import '../styles/masterchat.css'
-
+import fgosymbol from '../assets/fgo_symbol.png'
 //firebase react hook for user authentication
 import {useAuthState} from 'react-firebase-hooks/auth';
 //firebase react hook for storeing user created data(messages)
@@ -39,9 +40,10 @@ function Masterchat (){
         <>
             <Navbar toggle={toggle}/>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <div className="App">
+            <div className="masterchat">
                 <header>
-                    <h1></h1>
+                    <h1>Master Chat</h1>
+                    <img src={fgosymbol} />
                     <SignOut />
                 </header>
                 <section>
@@ -105,20 +107,22 @@ function ChatRoom(){
         dummy.current.scrollIntoView({behavior: 'smooth'});
     }
     return(<>
-            <main>
-                {/* Loops over each message in document */}
-                {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
-                <span ref={dummy}></span>
+            <div className="chatroom">
+                <main>
+                    {/* Loops over each message in document */}
+                    {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
+                    <span ref={dummy}></span>
 
-                
-            </main>
+                    
+                </main>
 
-            <form onSubmit={sendMessage}>
-                <input value={formValue} onChange={(e) => setFormValue(e.target.value)} />
+                <form onSubmit={sendMessage}>
+                    <input value={formValue} onChange={(e) => setFormValue(e.target.value)} />
 
-                <button type="submit" disabled={!formValue}>Send A Message Master!</button>
+                    <button type="submit" disabled={!formValue}>Send a Message Master!</button>
 
-            </form>
+                </form>
+            </div>
         </>
     )
 }

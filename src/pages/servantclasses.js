@@ -69,7 +69,7 @@ function Servantclasses (){
             <Displayedserventclasscontainer>
                 <Switch>
                     <Route path="/" component={Introduction} />
-                    <Route path="/saberclass" component={Saberclass} />
+                    <Route path="/servantclasses/saberclass" component={Saberclass} />
                     <Route path="/lancerclass" component={Lancerclass} />
                     <Route path="/archerclass" component={Archerclass} />
                     <Route path="/" component={Riderclass} />

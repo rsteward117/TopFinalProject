@@ -30,28 +30,11 @@ function Story (){
         SetIsOpen(!isOpen)
     }
 
-    const [showArchive1, setShowArchive1] = useState(true);
-    const [showArchive2, setShowArchive2] = useState(false);
-    const [showArchive3, setShowArchive3] = useState(false);
+    const [showCurrentArchive, setShowCurrentArchive] = useState("archive1");
 
-    function showHideSection1Content(){
-        setShowArchive1(!showArchive1)
+    function displayCurrentArchive(archive){
+        setShowCurrentArchive(archive)
     }
-
-    function showHideSection2Content(){
-        setShowArchive2(!showArchive2)
-    }
-
-    function showHideSection3Content(){
-        setShowArchive3(!showArchive3)
-    }
-
-    const toggleArchive1BtnName = showArchive1;
-    const toggleArchive2BtnName = showArchive2;
-    const toggleArchive3BtnName = showArchive3;
-
-    
-
 
 const StoryHeadercontainer = styled.div`
     display: flex;
@@ -228,22 +211,18 @@ const Storyarchivebtnscontainer = styled.div`
         </StoryHeadercontainer>
             <MainContainer>
                 <Storyarchivebtnscontainer>
-                    <Showstoryarchive1btn onClick={showHideSection1Content}>
-                        {toggleArchive1BtnName?'Hide Story Archive 1 data'
-                        :'Access Story Archive 1 data'}
+                    <Showstoryarchive1btn onClick={() => displayCurrentArchive('archive1')}>
+                        Archive 1
                     </Showstoryarchive1btn>
-                    <Showstoryarchive2btn onClick={showHideSection2Content}>
-                        {toggleArchive2BtnName?
-                        'Hide Story Archive 1.5 data'
-                        :`Access Story Archive 1.5 data`}
+                    <Showstoryarchive2btn onClick={() => displayCurrentArchive('archive2')}>
+                        Archive 2
                     </Showstoryarchive2btn>
-                    <Showstoryarchive3btn onClick={showHideSection3Content}>
-                        {toggleArchive3BtnName?'Hide Story Archive 2 data'
-                        :'Access Story Archive 2 data'}
+                    <Showstoryarchive3btn onClick={() => displayCurrentArchive('archive3')}>
+                        Archive 3
                     </Showstoryarchive3btn>
                 </Storyarchivebtnscontainer>
                 <Storycontentcontainer>
-                    { showArchive1?
+                    { showCurrentArchive === "archive1" && (
                     <Storyarchive1>
                         <Storycontentcardcontainer>
                            <Storycontentcard>
@@ -318,8 +297,8 @@ const Storyarchivebtnscontainer = styled.div`
                             </Storycontentcard>
                         </Storycontentcardcontainer>
                     </Storyarchive1>
-                    :null }
-                     { showArchive2? 
+                    )}
+                     { showCurrentArchive === "archive2" && ( 
                         <Storyarchive2>
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
@@ -357,8 +336,8 @@ const Storyarchivebtnscontainer = styled.div`
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
                         </Storyarchive2>
-                     :null }
-                     { showArchive3? 
+                        )}
+                     { showCurrentArchive === "archive3" && (
                         <Storyarchive3>
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
@@ -396,7 +375,7 @@ const Storyarchivebtnscontainer = styled.div`
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
                         </Storyarchive3>
-                     :null }
+                     )}
                 </Storycontentcontainer>
             </MainContainer>
         </>

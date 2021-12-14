@@ -108,7 +108,7 @@ function Navbar({ toggle }){
                                 <NavLinks to="/servantclasses">Servant Class</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/rollsimulator">Roll Simulator</NavLinks>
+                                <NavLinks to="/gamemachanics">Game Machanics</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/masterchat">Masters Chat</NavLinks>
