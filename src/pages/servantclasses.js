@@ -17,7 +17,7 @@ import Foreignerclass from '../servantclassescomponets/Foreignerclass'
 import Alteregoclass from '../servantclassescomponets/Alterego'
 import Mooncancerclass from '../servantclassescomponets/Mooncancer'
 import Pretenderclass from '../servantclassescomponets/Pretender'
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
  const Displayedserventclasscontainer = styled.div`
     border: 1px solid black;
     margin: auto;
@@ -62,32 +62,32 @@ function Servantclasses (){
 
     return(
         <>
-    <Router>
         <Navbar toggle={toggle}/>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Servantclassesnavbar />
             <Displayedserventclasscontainer>
-                <Switch>
-                    <Route path="/" component={Introduction} />
-                    <Route path="/servantclasses/saberclass" component={Saberclass} />
-                    <Route path="/lancerclass" component={Lancerclass} />
-                    <Route path="/archerclass" component={Archerclass} />
-                    <Route path="/" component={Riderclass} />
-                    <Route path="/" component={Casterclass} />
-                    <Route path="/" component={Assassinclass} />
-                    <Route path="/" component={Berserkerclass} />
-                    <Route path="/" component={Rulerclass} />
-                    <Route path="/avengerclass" component={Avengerclass} />
-                    <Route path="/" component={Foreignerclass} />
-                    <Route path="/" component={Alteregoclass} />
-                    <Route path="/" component={Mooncancerclass} />
-                    <Route path="/" component={Pretenderclass} />
-                </Switch>
+                <Routes>
+                    <Route path="Introduction" element={<Introduction />} />
+                    <Route path="Saberclass" element={<Saberclass />} />
+                    <Route path="Lancerclass" element={ <Lancerclass />} />
+                    <Route path="Archerclass" element={<Archerclass />} />
+                    <Route path="Riderclass" element={<Riderclass />} />
+                    <Route path="Casterclass" element={<Casterclass />} />
+                    <Route path="Assassinclass" element={<Assassinclass />} />
+                    <Route path="Berserkerclass" element={<Berserkerclass />} />
+                    <Route path="Rulerclass" element={<Rulerclass />} />
+                    <Route path="Avengerclass" element={<Avengerclass />} />
+                    <Route path="Foreignerclass" element={<Foreignerclass />} />
+                    <Route path="Alteregoclass" element={<Alteregoclass />} />
+                    <Route path="Mooncancerclass" element={<Mooncancerclass />} />
+                    <Route path="Pretenderclass" element={<Pretenderclass />} />
+                </Routes>
             </Displayedserventclasscontainer>
-    </Router>
         </>
     )
 
 }
 
 export default Servantclasses;
+
+

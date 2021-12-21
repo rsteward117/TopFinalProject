@@ -68,14 +68,17 @@ function Servantclassesnavbar(){
     return(
         <>
             <Navbarcontainer>
+                <Dropdownnavlinks to="Introduction">
+                    Introduction
+                </Dropdownnavlinks>
                 <Dropdownli>
                 <Dropdownbtn>
                     Knight Classes<FaCaretDown />
                 </Dropdownbtn>
                     <Dropdowncontent>
-                        <Dropdownnavlinks to="/servantclasses/saberclass">Saber</Dropdownnavlinks>
-                        <Dropdownnavlinks to="/archerclass">Archer</Dropdownnavlinks>
-                        <Dropdownnavlinks to="/lancerclass">Lancer</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Saberclass">Saber</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Archerclass"> Archer</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Lancerclass">Lancer</Dropdownnavlinks>
                     </Dropdowncontent>
                 </Dropdownli>
                 <Dropdownli>
@@ -83,10 +86,10 @@ function Servantclassesnavbar(){
                     Calvary Classes<FaCaretDown />
                 </Dropdownbtn>
                     <Dropdowncontent>
-                        <Dropdownnavlinks>Rider</Dropdownnavlinks>
-                        <Dropdownnavlinks>Caster</Dropdownnavlinks>
-                        <Dropdownnavlinks>Assassin</Dropdownnavlinks>
-                        <Dropdownnavlinks>Berserker</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Riderclass">Rider</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Casterclass">Caster</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Assassinclass">Assassin</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Berserkerclass">Berserker</Dropdownnavlinks>
                     </Dropdowncontent>
                 </Dropdownli>
                 <Dropdownli>
@@ -94,12 +97,12 @@ function Servantclassesnavbar(){
                     Extra Classes<FaCaretDown />
                 </Dropdownbtn>
                     <Dropdowncontent>
-                        <Dropdownnavlinks>Ruler</Dropdownnavlinks>
-                        <Dropdownnavlinks to="/avengerclass">Avenger</Dropdownnavlinks>
-                        <Dropdownnavlinks>Alter Ego</Dropdownnavlinks>
-                        <Dropdownnavlinks>Moon Cancer</Dropdownnavlinks>
-                        <Dropdownnavlinks>Foreigner</Dropdownnavlinks>
-                        <Dropdownnavlinks>Pretender</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Rulerclass">Ruler</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Avengerclass">Avenger</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Alteregoclass">Alter Ego</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Mooncancerclass">Moon Cancer</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Foreignerclass">Foreigner</Dropdownnavlinks>
+                        <Dropdownnavlinks to="Pretenderclass">Pretender</Dropdownnavlinks>
                     </Dropdowncontent>
                 </Dropdownli>
             </Navbarcontainer>

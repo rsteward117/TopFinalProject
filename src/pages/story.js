@@ -235,64 +235,58 @@ const Storyarchivebtnscontainer = styled.div`
                         <Storycontentcardcontainer>
                             <Storycontentcard>
                                 <Storycontentheader image={s2} moblieimage={s2}></Storycontentheader>
-                                    <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                        any surving humans in the city.
+                                    <Storycontent>Help a saint restore order to france, and put an end to the tyranny of a dragon witch. 
                                     </Storycontent>
                             </Storycontentcard>
                         </Storycontentcardcontainer>
                         <Storycontentcardcontainer>
                             <Storycontentcard>
                                 <Storycontentheader image={s3} moblieimage={s3}></Storycontentheader>
-                                    <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                        any surving humans in the city.
+                                    <Storycontent>Defend Rome from overwhelming invading forces That seek to destory this empire.
                                     </Storycontent>
                             </Storycontentcard>
                         </Storycontentcardcontainer>
                         <Storycontentcardcontainer>
                             <Storycontentcard>
                                 <Storycontentheader image={s4} moblieimage={s4}></Storycontentheader>
-                                    <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                        any surving humans in the city.
+                                    <Storycontent>Go on an adventure with Francis Drake on the seas of Okeanos, and find the hidden holy relic the Ark
                                     </Storycontent>
                             </Storycontentcard>
                         </Storycontentcardcontainer>
                         <Storycontentcardcontainer>
                             <Storycontentcard>
                                 <Storycontentheader image={s5} moblieimage={s5}></Storycontentheader>
-                                    <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                        any surving humans in the city.
+                                    <Storycontent>
+                                        explore and uncover a sinister mystery in the misty city of london
                                     </Storycontent>
                             </Storycontentcard>
                         </Storycontentcardcontainer>
                         <Storycontentcardcontainer>
                             <Storycontentcard>
                                 <Storycontentheader image={s6} moblieimage={s6}></Storycontentheader>
-                                    <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                        any surving humans in the city.
+                                    <Storycontent>America under the rule of the warrior queen of the celtics. Standing beside her is her monstrous king cu alter.
                                     </Storycontent>
                             </Storycontentcard>
                         </Storycontentcardcontainer>
                         <Storycontentcardcontainer>
                             <Storycontentcard>
                                 <Storycontentheader image={s7} moblieimage={s7}></Storycontentheader>
-                                    <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                        any surving humans in the city.
+                                    <Storycontent>Aid wandering knight serve his king one last time. by destorying the king's kingdom,
+                                         and remind the king of the indeals they had what it means to be a king, and how they stayed away from them. 
                                     </Storycontent>
                             </Storycontentcard>
                         </Storycontentcardcontainer>
                         <Storycontentcardcontainer>
                             <Storycontentcard>
                                 <Storycontentheader image={s8} moblieimage={s8}></Storycontentheader>
-                                    <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                        any surving humans in the city.
+                                    <Storycontent>Uruk humanity's frist and potentially civilization, you most help a divine king defend it from hordes of demonic forces.
                                     </Storycontent>
                             </Storycontentcard>
                         </Storycontentcardcontainer>
                         <Storycontentcardcontainer>
                             <Storycontentcard>
                                 <Storycontentheader image={s9} moblieimage={s9}></Storycontentheader>
-                                    <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                        any surving humans in the city.
+                                    <Storycontent>The end of a long quest ends here, at the temple of time, and defeat the one who is reponsible for the destuction humanity, and retore humanity and human history.
                                     </Storycontent>
                             </Storycontentcard>
                         </Storycontentcardcontainer>
@@ -303,8 +297,7 @@ const Storyarchivebtnscontainer = styled.div`
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
                                     <Storycontentheader image={ps1} moblieimage={ps1}></Storycontentheader>
-                                        <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                            any surving humans in the city.
+                                        <Storycontent>In a city where only evil exist, and a vile mastermind plans end a century old rivalry
                                         </Storycontent>
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
@@ -312,8 +305,7 @@ const Storyarchivebtnscontainer = styled.div`
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
                                     <Storycontentheader image={ps2} moblieimage={ps2}></Storycontentheader>
-                                        <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                            any surving humans in the city.
+                                        <Storycontent>Enter a story where women reign supreme over men, and four factions fight for dominance over control of the world.
                                         </Storycontent>
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
@@ -321,8 +313,7 @@ const Storyarchivebtnscontainer = styled.div`
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
                                     <Storycontentheader image={ps3} moblieimage={ps3}></Storycontentheader>
-                                        <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                            any surving humans in the city.
+                                        <Storycontent>Lost in an nightmare where you encounter a swordswomen, who is on a quest to find enlightenment, but in order for to do that she most face several demonic warriors to reach her goal.
                                         </Storycontent>
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
@@ -330,8 +321,7 @@ const Storyarchivebtnscontainer = styled.div`
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
                                     <Storycontentheader image={ps4} moblieimage={ps4}></Storycontentheader>
-                                        <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                            any surving humans in the city.
+                                        <Storycontent>A witch hunt is brewing in salem, mass hysteria taking over whole town, but something more evil and inhuman is the sorce of this event.
                                         </Storycontent>
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
@@ -342,8 +332,7 @@ const Storyarchivebtnscontainer = styled.div`
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
                                     <Storycontentheader image={lb1} moblieimage={lb1}></Storycontentheader>
-                                        <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                            any surving humans in the city.
+                                        <Storycontent>Welcome to a russia where snow storms never ends, and humans have evolve into furry beast to adapt to their cold and hostile environment. 
                                         </Storycontent>
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
@@ -351,8 +340,8 @@ const Storyarchivebtnscontainer = styled.div`
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
                                     <Storycontentheader image={lb2} moblieimage={lb2}></Storycontentheader>
-                                        <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                            any surving humans in the city.
+                                        <Storycontent>In this alternative Scandinavia Ragnarok came on gone, but the age of the gods did not end. One last Goddess still remain, and she looks after, and love all living thing in her kingdom.
+                                            As long as she lives the age of the Gods will continue.
                                         </Storycontent>
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
@@ -360,8 +349,8 @@ const Storyarchivebtnscontainer = styled.div`
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
                                     <Storycontentheader image={lb3} moblieimage={lb3}></Storycontentheader>
-                                        <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                            any surving humans in the city.
+                                        <Storycontent> China has conqered the world, and humanity is staggered in an uneventful, yet peaceful age. no philosophy, recorded human history, or diffrent ideas of how to live life exist here just working until they die.
+                                            A perfect being show this as a way to achieve everlasting peace for humanity. 
                                         </Storycontent>
                                 </Storycontentcard>
                             </Storycontentcardcontainer>
@@ -369,8 +358,7 @@ const Storyarchivebtnscontainer = styled.div`
                             <Storycontentcardcontainer>
                                 <Storycontentcard>
                                     <Storycontentheader image={lb4} moblieimage={lb4}></Storycontentheader>
-                                        <Storycontent>Survive through a destoried and burning city in japan where rouge Servants are on the run killing other Servants,
-                                            any surving humans in the city.
+                                        <Storycontent>A God seeks to create a perfect world in his desired image, he hopes to create this world by discarding what he decides is necessary for perfect his perfect.
                                         </Storycontent>
                                 </Storycontentcard>
                             </Storycontentcardcontainer>

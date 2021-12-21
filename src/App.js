@@ -4,21 +4,19 @@ import Story from './pages/story';
 import Servantclasses from './pages/servantclasses';
 import Gamemachanics from './pages/gamemachanics';
 import Masterchat from './pages/masterchat';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 
 
 function App() {
   return (
     <>
-      <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/story" component={Story} />
-            <Route exact path="/servantclasses" component={Servantclasses} />
-            <Route exact path="/gamemachanics" component={Gamemachanics} />
-            <Route exact path="/masterchat" component={Masterchat} />
-          </Switch>
-      </Router>
+          <Routes>
+            <Route  path="/" element={<Home />} />
+            <Route  path="/story" element={<Story />} />
+            <Route  path="/servantclasses/*" element={<Servantclasses />} />
+            <Route  path="/gamemachanics" element={<Gamemachanics />} />
+            <Route  path="/masterchat" element={<Masterchat />} />
+          </Routes>
     </>
   );
 }
